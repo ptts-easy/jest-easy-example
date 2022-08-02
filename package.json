@@ -8,9 +8,15 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "ptts",
   "license": "ISC",
   "devDependencies": {
+    "@shelf/jest-mongodb": "^3.0.2",
+    "dotenv": "^16.0.1",
     "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "mongodb": "^4.7.0",
+    "mysql": "^2.18.1"
   }
 }

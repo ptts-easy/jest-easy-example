@@ -1,4 +1,4 @@
-//console.log("run jest-easy-example : index.js");
+console.log("#npm test");
 
 /**
  * Summary.
@@ -63,7 +63,3 @@ function fetchData1(x, callback) {
 }
 
 module.exports = {fetchData, fetchData1};
-
-//var sum = require('./sum.js');
-
-//console.log("sum(2, 3) = " + sum(2, 3));

@@ -189,21 +189,3 @@ test('the data is peanut butter', () => {
 test('the fetch fails with an error', () => {
   return expect(fetchData(0)).rejects.toMatch('error');
 });
-
-//Repeating Setup
-
-beforeEach(() => {
-  initializeCityDatabase();
-});
-
-afterEach(() => {
-  clearCityDatabase();
-});
-
-test('city database has Vienna', () => {
-  expect(isCity('Vienna')).toBeTruthy();
-});
-
-test('city database has San Juan', () => {
-  expect(isCity('San Juan')).toBeTruthy();
-});
